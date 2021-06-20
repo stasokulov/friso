@@ -1,0 +1,22 @@
+{
+ "dir": "ltr",
+ "lang": "Russian",
+ "name": "Инновация от Friso",
+ "short_name": "Friso",
+ "scope": "./index.html",
+ "display": "fullscreen",
+ "start_url": "./index.html",
+ "background_color": "#000000",
+ "theme_color": "#000000",
+ "description": "Позволяет узнать путь детской смеси Friso от молочной фермы до готового продукта",
+ "orientation": "any",
+ "related_applications": [],
+ "prefer_related_applications": false,
+ "url": "https://test.grechka.digital/friso/build/index.html",
+ "screenshots": [],
+ "icons": [
+  {
+   "src": "./favicon.ico"
+  }
+ ]
+}

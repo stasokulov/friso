@@ -1,0 +1,8 @@
+/node_modules/
+/.git/
+/.idea/
+/**/Thumbs.db
+/**/*.DS_Store
+/reports/
+/build/
+/src/video/

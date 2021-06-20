@@ -1,0 +1,16 @@
+{
+	"env": {
+		"jquery": true
+	},
+	"extends": "airbnb-base/legacy",
+	"rules": {
+		"indent": ["error", "tab"],
+		"no-tabs": 0,
+		"space-before-function-paren": "off", // Отключено до фикса преттера
+		"func-names": "off",
+		"vars-on-top": "off",
+		"no-plusplus": "off",
+		"operator-linebreak": "off",
+		"no-underscore-dangle": "off"
+	}
+}

@@ -1,0 +1,14 @@
+@include font-face("Roboto", "#{$url-font}/Roboto-Regular/Roboto-Regular", "eot" "woff" "ttf") {
+	font-weight: 400;
+	font-display: swap;
+}
+
+@include font-face("Roboto", "#{$url-font}/Roboto-Medium/Roboto-Medium", "eot" "woff" "ttf") {
+	font-weight: 500;
+	font-display: swap;
+}
+
+@include font-face("Roboto", "#{$url-font}/Roboto-Bold/Roboto-Bold", "eot" "woff" "ttf") {
+	font-weight: 700;
+	font-display: swap;
+}

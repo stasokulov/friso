@@ -1,0 +1,22 @@
+html,
+body {
+	overflow-x: hidden;
+}
+body {
+	position: relative;
+	min-width: 320px;
+	min-height: 100vh;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.4;
+	* {
+		outline: none;
+	}
+}
+main {
+	position: relative;
+}
+section {
+	position: relative;
+}

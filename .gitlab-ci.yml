@@ -1,0 +1,18 @@
+stages:
+  - pull_dev
+
+deploy-dev:
+  stage: pull_dev
+  tags:
+    - pull_dev
+  only:
+    - master
+  when: always
+  script:
+    - cd /var/www/www-root/data/www/$SITE_NAME/
+    - rm -rf build
+    - rm -rf node_modules
+    - git reset --hard HEAD
+    - git pull origin master
+    - npm install
+    - npm run build

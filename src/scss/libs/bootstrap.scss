@@ -1,0 +1,31 @@
+@import "../vars"; // Импорт переменных всегда первый
+
+// Переопределение Bootstrap брэкпоинтов
+// prettier-ignore
+$grid-breakpoints: (
+	"xxs": map-get($breakpoints, "xxs"),
+	"xs": map-get($breakpoints, "xs"),
+	"sm": map-get($breakpoints, "sm"),
+	"md": map-get($breakpoints, "md"),
+	"lg": map-get($breakpoints, "lg"),
+	"xl": map-get($breakpoints, "xl"),
+	//"xxl": map-get($breakpoints, "xxl"),
+);
+// Переопределение Bootstrap контейнера
+// prettier-ignore
+$container-max-widths: (
+	"sm": map-get($max-widths, "sm"),
+	"md": map-get($max-widths, "md"),
+	"lg": map-get($max-widths, "lg"),
+	"xl": map-get($max-widths, "xl"),
+	//"xxl": map-get($max-widths, "xxl"),
+);
+
+// Обязательно
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+// Опционально
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/grid";
